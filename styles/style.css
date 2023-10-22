@@ -1,1 +1,41 @@
-/* место для вашего кода */
+html, body {
+  box-sizing: border-box;
+
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  width: 1440px;
+  background-color: #fff;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  margin-top: 135px;
+  margin-bottom: 137px;
+  margin-left: 51px;
+  color: #000;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+  list-style-type: circle;
+}
+
+.main-logo {
+  border;
+}
+
+.logo-black {
+  border;
+}
+
+.td-none {
+    text-decoration: none;
+  }
+
