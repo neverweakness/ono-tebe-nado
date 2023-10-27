@@ -15,8 +15,8 @@
       <!-- Навигация в шапке -->
       <nav class="nav-header">
         <ul class="nav-list">
-          <li class="nav-list-item no-dot">
-            <a class="td-none" href="#0">главная</a>
+          <li class="nav-list-item header__links-list-item_no-bullit">
+            <a class="header__link_active" href="#0">главная</a>
           </li>
           <li class="nav-list-item">
             <a class="border-bottom" href="#lots">посмотреть лоты</a>
@@ -37,63 +37,53 @@
         </a>
       </div>
       <!-- Контакты шапки -->
-      <div class="contacts">
-        <p class="number">
-          <a class="border-bottom" href="tel:+99995555555">+9 999 555 5555</a>
-        </p>
-        <p class="mail">
-          <a class="border-bottom" href="mailto:info@sobaka.ge"
-            >info@sobaka.ge</a
-          >
-        </p>
+      <address class="contacts">
+          <a class="contacts__item" href="tel:+99995555555">+9 999 555 5555</a>
+          <a class="contacts__item" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p class="address">наб. Принсенграхт 263-265, Амстердам</p>
-      </div>
+      </address>
     </header>
     <!-- Основной контент страницы -->
     <main class="cover">
-      <div>
+      <section>
         <h1 class="cover__title">
-          <span class="aligned-text"
-            ><span>о</span><span class="no">но</span></span
-          >
-          <span class="aligned-text_center"
-            ><span>те</span><span class="be">бе</span></span
-          >
-          <span class="aligned-text_right">
-            <span class="na">н</span>
-            <span>адо</span></span
-          >
+          <span class="aligned-text line-height-default">
+            <span class="no-letter-spacing">о</span>
+            <span class="letter-spacing-extended">но</span>
+          </span>
+          <span class="aligned-text_center cover__second_item ">
+            <span>те</span>
+            <span class="letter-spacing-extended">бе</span></span>
+          <span class="aligned-text_right cover__third_item">
+            <span class="letter-spacing-extended no-letter-spacing">н</span>
+            <span>ад</span>
+            <span class="letter-spacing-unique">о</span>
+          </span>
         </h1>
-      </div>
-
+      </section>
       <div class="cover__description">
         <div class="cover__description-item">
           <span class="cover__description-text">
-            <span>аукцион</span>
-            <span>вещей,</span>
-            <span>в</span>
-            <span>которые</span>
-            <span>никто</span>
-            <span>не</span>
-            <span>верил</span>
+            <span>Аукцион вещей, в которые никто не верил<span>
           </span>
         </div>
-        <div class="bet-button">сделать ставку</div>
+        <button class="bet-button">сделать ставку</button>
       </div>
     </main>
-    <div>
+    <!-- Лоты -->
+    <section>
       <div>
         <h2 class="lots__heading" id="lots">лоты</h2>
       </div>
-      <div class="lots__card-list">
-        <section class="lot-first">
+      <ul class="lots__card-list">
+        <article class="lot-first overlay">
           <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
           <p class="card__text">
             Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка,
             если бы вы не знали, что режиссёр — Пол Томас Андерсон?
           </p>
-        </section>
-        <section class="lot-second">
+        </article>
+        <article class="lot-second overlay">
           <h3 class="card__title">
             Книга, где описан один скучный день из жизни рекламного агента
           </h3>
@@ -104,8 +94,8 @@
             времён. И это всё накладывается на эпическую поэму Гомера. Сколько
             бы вы поставили на «Улисса» Джеймса Джойса?
           </p>
-        </section>
-        <section class="lot-third">
+        </article>
+        <article class="lot-third overlay">
           <h3 class="card__title">
             Картина, которую повторит даже 5-летний сын маминой подруги
           </h3>
@@ -115,12 +105,12 @@
             Сколько бы вы на такое поставили, если бы не знали, что это — одна
             из революционных работ Кандинского?
           </p>
-        </section>
-      </div>
+        </article>
+      </ul>
       <div class="lots__look-more-link"><a href="#0">посмотреть больше</a></div>
     </div>
-
-    <div>
+  <!-- Об аукционе -->
+    <section>
       <div class="about">
         <div class="about__logo">
           <img
@@ -147,29 +137,23 @@
           представить современную культуру. Когда в эти вещи не верил никто,
           продолжали верить их создатели. И сейчас эти лоты стали культовыми.
         </p>
-      </div>
-    </div>
+      </section>
+    <!-- Подвал -->
     <footer class="footer">
-      <div class="header-contacts footer-contacts">
-        <p class="number">
-          <a class="border-bottom" href="tel:+99995555555">+9 999 555 5555</a>
-        </p>
-        <p class="mail">
-          <a class="border-bottom" href="mailto:info@sobaka.ge"
-            >info@sobaka.ge</a
-          >
-        </p>
+      <address class="footer-contacts">
+        <a class="contacts__item" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="contacts__item" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p class="address">наб. Принсенграхт 263-265, Амстердам</p>
-      </div>
+      </address>
       <nav class="footer__menu">
         <ul class="nav-list footer__menu-list">
           <li class="nav-list-item">
-            <a class="td-none" href="#0">главная</a>
+            <a class="header__link_active" href="#0">главная</a>
           </li>
-          <li class="footer__menu-list-item">
+          <li class="">
             <a href="#lots">посмотреть лоты</a>
           </li>
-          <li class="footer__menu-list-item">
+          <li class="">
             <a href="#about">об аукционе</a>
           </li>
         </ul>
@@ -185,3 +169,4 @@
     </footer>
   </body>
 </html>
+<!-- Очень старался сделать буквы с нужным расстоянием, но не смог. Тяжело🥺 -->
