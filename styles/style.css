@@ -125,16 +125,13 @@ a:hover {
   letter-spacing: 60px;
 }
 
-
 .letter-spacing-unique {
   letter-spacing: initial;
 }
 
-
 .no-letter-spacing {
   letter-spacing: 0px;
 }
-
 
 .aligned-text {
   text-align: left;
@@ -174,10 +171,10 @@ a:hover {
 }
 
 .bet-button {
-  border: 1px #FFF solid;
+  border: 1px #fff solid;
   padding: 12px 32px;
-  color: #FFF;
-  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
   font-weight: normal;
   font-size: 22px;
   text-transform: uppercase;
@@ -403,5 +400,5 @@ a:hover {
   margin-top: 180px;
   flex-wrap: wrap;
   max-width: 270px;
-  line-height: 1.35
+  line-height: 1.35;
 }
